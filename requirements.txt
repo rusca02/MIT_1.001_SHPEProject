@@ -1,0 +1,19 @@
+# === requirements.txt ===
+streamlit
+openai
+faiss-cpu
+langchain
+langchain-community
+langchain-openai
+python-dotenv
+sentence-transformers
+numpy
+pickle-mixin
+PyPDF2
+docx2txt
+python-docx
+pytesseract
+Pillow
+Flask
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.4.1
