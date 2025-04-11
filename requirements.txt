@@ -16,5 +16,7 @@ pytesseract
 Pillow
 Flask
 pdfplumber
+pdf2image
+pymupdf
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.4.1
