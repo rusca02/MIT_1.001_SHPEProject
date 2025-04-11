@@ -1,1 +1,2 @@
 # MIT_1.001_SHPEProject
+# This project is intended to read and analyze documents from the Society of Hispanic Professional Engineers and help existing and future sponsors answer questions regarding sponsorships, events, and any other ofeering for the National Convention
