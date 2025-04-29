@@ -99,3 +99,23 @@ if st.session_state.history:
     st.markdown("### 🔎 Previous Questions")
     for idx, item in enumerate(reversed(st.session_state.history), 1):
         st.markdown(f"**{idx}.** **Q:** {item['question']}  \n**A:** {item['answer']}")
+
+# Show clickable image in the sidebar
+with st.sidebar:
+    # === 2025 Prospectus ===
+    with st.expander("📄 2025 Sponsorship Prospectus", expanded=False):
+        if st.button("🔗 Open 2025 PDF"):
+            st.markdown(
+                "[Click here to view the full 2025 prospectus](https://shpe.org/wp-content/uploads/2025/04/SHPE_NC2025_Sponsorship-Prospectus_042325.pdf)",
+                unsafe_allow_html=True,
+            )
+        st.image("assets/2025_SponsorshipOpportunities.png", use_container_width=True)
+
+    # === 2024 Prospectus ===
+    with st.expander("📄 2024 Sponsorship Prospectus", expanded=False):
+        if st.button("🔗 Open 2024 PDF"):
+            st.markdown(
+                "[Click here to view the full 2024 prospectus](https://shpe.org/wp-content/uploads/2024/06/NC2024_Sponsorship-Prospectus_V11-interactive.pdf)",
+                unsafe_allow_html=True,
+            )
+        st.image("assets/2024_SponsorshipOpportunities.png", use_container_width=True)
